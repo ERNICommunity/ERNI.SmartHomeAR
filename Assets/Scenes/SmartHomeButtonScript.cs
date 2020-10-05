@@ -4,21 +4,9 @@ using UnityEngine;
 
 public class SmartHomeButtonScript : MonoBehaviour
 {
-    [SerializeField]
-    private string apiKey;
-
-    [SerializeField]
-    private string eventName;
-
-    // Start is called before the first frame update
-    void Start()
+    public void TriggerEvent(string eventName)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log(eventName + " called.");
+        StartCoroutine(IftttMakerManager.Request(eventName));
     }
 }
