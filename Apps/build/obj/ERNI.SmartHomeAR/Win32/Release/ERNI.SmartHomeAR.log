@@ -1,0 +1,10 @@
+﻿  App.cpp
+  UnityGenerated.cpp
+C:\Users\vjppa\source\repos\ERNI.SmartHomeAR\Apps\ERNI.SmartHomeAR\App.cpp(26,1): warning C4973: 'Windows::UI::ViewManagement::IApplicationView2::SuppressSystemOverlays::set': marked as deprecated
+C:\Users\vjppa\source\repos\ERNI.SmartHomeAR\Apps\ERNI.SmartHomeAR\App.cpp(26,1): message : Message: 'Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.'
+  Generating code
+  0 of 160 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  ERNI.SmartHomeAR.vcxproj -> C:\Users\vjppa\source\repos\ERNI.SmartHomeAR\Apps\build\bin\Win32\Release\ERNI.SmartHomeAR.exe
