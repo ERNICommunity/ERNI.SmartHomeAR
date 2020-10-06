@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class IftttMakerManager : MonoBehaviour
 {
@@ -9,11 +10,13 @@ public class IftttMakerManager : MonoBehaviour
     public static IEnumerator Request(string eventName)
     {
         var url = Url(eventName);
-        Debug.Log(url);
 
-        using (var www = new WWW(url))
+        using (UnityWebRequest webRequest = UnityWebRequest.Get(url))
         {
-            yield return www;
+            yield return webRequest.SendWebRequest();
+
+            if (webRequest.isNetworkError) Debug.Log(webRequest.error);
+            else Debug.Log(webRequest.downloadHandler.text);
         }
     }
 
