@@ -1,0 +1,840 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &640871067824112004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2285907285521278402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 139d2dcac2a770543a92434ac858da6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEventName: livingroom_lights_on
+  offEventName: livingroom_lights_off
+  isOn: 0
+--- !u!1 &640871067866186685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 640871067866186684}
+  - component: {fileID: 640871067866186687}
+  m_Layer: 0
+  m_Name: ControlPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &640871067866186684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640871067866186685}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1788, y: -0.0297, z: 0.698}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2285907286407448711}
+  - {fileID: 640871068799539610}
+  - {fileID: 2285907286142483025}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &640871067866186687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640871067866186685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf12ee76e7e00a44a9a84256760020e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeList:
+  - Name: OutdoorSmartHomeButton
+    Offset: {x: 0, y: 0}
+    Radius: 0
+    Transform: {fileID: 2285907286407448711}
+    Colliders: []
+  - Name: IndoorControl
+    Offset: {x: 0, y: 0}
+    Radius: 0
+    Transform: {fileID: 640871068799539610}
+    Colliders: []
+  - Name: OutdoorSmartHomeButton (1)
+    Offset: {x: 0, y: 0}
+    Radius: 0
+    Transform: {fileID: 2285907286142483025}
+    Colliders: []
+  ignoreInactiveTransforms: 1
+  sortType: 0
+  surfaceType: 1
+  orientType: 0
+  layout: 1
+  anchor: 4
+  anchorAlongAxis: 0
+  columnAlignment: 0
+  rowAlignment: 1
+  radius: 2
+  radialRange: 180
+  distance: 0
+  rows: 3
+  columns: 1
+  cellWidth: 0.0325
+  cellHeight: 0.0325
+  assetVersion: 1
+--- !u!114 &640871067957213181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2285907286728135593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 139d2dcac2a770543a92434ac858da6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEventName: outside_lights_on
+  offEventName: outside_lights_off
+  isOn: 0
+--- !u!114 &640871068052938405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2285907286622517985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 139d2dcac2a770543a92434ac858da6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEventName: cr_lights_on
+  offEventName: cr_lights_on
+  isOn: 0
+--- !u!114 &640871068224898355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2285907286995804543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 139d2dcac2a770543a92434ac858da6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEventName: all_lights_on
+  offEventName: all_lights_off
+  isOn: 0
+--- !u!1 &640871068799539611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 640871068799539610}
+  - component: {fileID: 640871068799539605}
+  m_Layer: 0
+  m_Name: IndoorControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &640871068799539610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640871068799539611}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2285907287051970458}
+  - {fileID: 2285907286007123002}
+  - {fileID: 2285907286168376089}
+  m_Father: {fileID: 640871067866186684}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &640871068799539605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640871068799539611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf12ee76e7e00a44a9a84256760020e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeList:
+  - Name: BedroomSmartHomeButton
+    Offset: {x: 0, y: 0}
+    Radius: 0
+    Transform: {fileID: 2285907287051970458}
+    Colliders: []
+  - Name: LivingRoomSmartHomeButton
+    Offset: {x: 0, y: 0}
+    Radius: 0
+    Transform: {fileID: 2285907286007123002}
+    Colliders: []
+  - Name: ToiletSmartHomeButton
+    Offset: {x: 0, y: 0}
+    Radius: 0
+    Transform: {fileID: 2285907286168376089}
+    Colliders: []
+  ignoreInactiveTransforms: 1
+  sortType: 0
+  surfaceType: 1
+  orientType: 0
+  layout: 1
+  anchor: 4
+  anchorAlongAxis: 0
+  columnAlignment: 0
+  rowAlignment: 1
+  radius: 2
+  radialRange: 180
+  distance: 0
+  rows: 1
+  columns: 3
+  cellWidth: 0.0325
+  cellHeight: 0.0325
+  assetVersion: 1
+--- !u!114 &640871068917066276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2285907286597701218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 139d2dcac2a770543a92434ac858da6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEventName: bedroom_lights_on
+  offEventName: bedroom_lights_off
+  isOn: 0
+--- !u!1001 &640871067824112011
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 640871068799539610}
+    m_Modifications:
+    - target: {fileID: 1683774821740432816, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_Name
+      value: LivingRoomSmartHomeButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822670159021, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_text
+      value: Living Room
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 640871067824112004}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: iconSet
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
+        type: 2}
+    - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: iconQuadTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: afd545622186b2a4892b1723b64a1b82, type: 3}
+    m_RemovedComponents:
+    - {fileID: 1683774822326363215, guid: 9a7590114cfdf424fb4e3ba168fcd385, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 9a7590114cfdf424fb4e3ba168fcd385, type: 3}
+--- !u!4 &2285907286007123002 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+    type: 3}
+  m_PrefabInstance: {fileID: 640871067824112011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2285907285521278402 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1683774822326363209, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+    type: 3}
+  m_PrefabInstance: {fileID: 640871067824112011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &640871067957213152
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 640871067866186684}
+    m_Modifications:
+    - target: {fileID: 1683774821740432816, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_Name
+      value: OutdoorSmartHomeButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0325
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822223672864, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822670159021, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_text
+      value: Outside Lights
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220800, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: tv_power
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 640871067957213181}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: iconSet
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
+        type: 2}
+    - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: iconQuadTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 80f35d32ad0870c488fef2b610cf5221, type: 3}
+    - target: {fileID: 1683774822988879055, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1683774822326363215, guid: 9a7590114cfdf424fb4e3ba168fcd385, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 9a7590114cfdf424fb4e3ba168fcd385, type: 3}
+--- !u!4 &2285907286142483025 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+    type: 3}
+  m_PrefabInstance: {fileID: 640871067957213152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2285907286728135593 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1683774822326363209, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+    type: 3}
+  m_PrefabInstance: {fileID: 640871067957213152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &640871068052938408
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 640871068799539610}
+    m_Modifications:
+    - target: {fileID: 1683774821740432816, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletSmartHomeButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0325
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822670159021, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_text
+      value: Toilet
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 640871068052938405}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: iconSet
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
+        type: 2}
+    - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: iconQuadTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 28a4a603fbff4a149a1dc30522e556fe, type: 3}
+    m_RemovedComponents:
+    - {fileID: 1683774822326363215, guid: 9a7590114cfdf424fb4e3ba168fcd385, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 9a7590114cfdf424fb4e3ba168fcd385, type: 3}
+--- !u!4 &2285907286168376089 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+    type: 3}
+  m_PrefabInstance: {fileID: 640871068052938408}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2285907286622517985 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1683774822326363209, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+    type: 3}
+  m_PrefabInstance: {fileID: 640871068052938408}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &640871068224898358
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 640871067866186684}
+    m_Modifications:
+    - target: {fileID: 1683774821740432816, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_Name
+      value: AllDevicesSmartHomeButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0325
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822223672864, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822670159021, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_text
+      value: All Lights
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220800, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: tv_power
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 640871068224898355}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: iconSet
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
+        type: 2}
+    - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: iconQuadTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 1415131dae3af0d44a02b1e89475cc87, type: 3}
+    - target: {fileID: 1683774822988879055, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1683774822326363215, guid: 9a7590114cfdf424fb4e3ba168fcd385, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 9a7590114cfdf424fb4e3ba168fcd385, type: 3}
+--- !u!4 &2285907286407448711 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+    type: 3}
+  m_PrefabInstance: {fileID: 640871068224898358}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2285907286995804543 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1683774822326363209, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+    type: 3}
+  m_PrefabInstance: {fileID: 640871068224898358}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &640871068917066283
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 640871068799539610}
+    m_Modifications:
+    - target: {fileID: 1683774821740432816, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_Name
+      value: BedroomSmartHomeButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0325
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822670159021, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_text
+      value: Bedroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 640871068917066276}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: iconSet
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
+        type: 2}
+    - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: iconQuadTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 9034aa883b4cf494fbe99ae349b2f4f8, type: 3}
+    m_RemovedComponents:
+    - {fileID: 1683774822326363215, guid: 9a7590114cfdf424fb4e3ba168fcd385, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 9a7590114cfdf424fb4e3ba168fcd385, type: 3}
+--- !u!4 &2285907287051970458 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+    type: 3}
+  m_PrefabInstance: {fileID: 640871068917066283}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2285907286597701218 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1683774822326363209, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+    type: 3}
+  m_PrefabInstance: {fileID: 640871068917066283}
+  m_PrefabAsset: {fileID: 0}
