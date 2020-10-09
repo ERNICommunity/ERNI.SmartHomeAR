@@ -20,7 +20,7 @@ MonoBehaviour:
     componentName: Windows Mixed Reality Camera Settings
     priority: 0
     runtimePlatform: 8
-    settingsProfile: {fileID: 0}
+    settingsProfile: {fileID: 11400000, guid: 8bcb1b4f3bfaaaa4eb0db32853b14a7d, type: 2}
   nearClipPlaneOpaqueDisplay: 0.3
   farClipPlaneOpaqueDisplay: 1000
   cameraClearFlagsOpaqueDisplay: 2

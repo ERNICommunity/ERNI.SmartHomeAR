@@ -291,7 +291,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4160825692119582639}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.2772, y: -0.0773, z: -0.01}
+  m_LocalPosition: {x: -0.29920003, y: -0.0596, z: -0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8710045371900553162}
@@ -311,13 +311,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5379256973415452134}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60e108b635a73db40a8d3c02d87c249f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  toolTip: {fileID: 6772021793122270812}
+  toolTip: {fileID: 0}
   connectorFollowType: 1
   pivotMode: 0
   pivotDirection: 1
@@ -325,36 +325,6 @@ MonoBehaviour:
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1, z: 0}
   pivotDistance: 0.25
---- !u!114 &6772021793122270812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5379256973415452134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36767500e4f76334a8999a2f5fa5dcc6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  showBackground: 1
-  showHighlight: 0
-  showConnector: 1
-  tipState: 1
-  groupTipState: 0
-  masterTipState: 0
-  anchor: {fileID: 1540761256}
-  pivot: {fileID: 37418712}
-  label: {fileID: 843567330}
-  contentParent: {fileID: 1129996417}
-  toolTipText: ' '
-  backgroundPadding: {x: 0, y: 0}
-  backgroundOffset: {x: 0, y: 0, z: 0}
-  contentScale: 1
-  fontSize: 30
-  attachPointType: 9
-  attachPointOffset: {x: 0, y: 0, z: 0}
-  toolTipLine: {fileID: 0}
 --- !u!1 &6772021792625661163
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,7 +349,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6772021792625661163}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.2772, y: -0.1704, z: -0.01}
+  m_LocalPosition: {x: -0.307, y: -0.1922, z: -0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5379256971484591039}
@@ -459,29 +429,7 @@ MonoBehaviour:
   debugEnabled: 1
   onPlacingStarted:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5379256972343079318}
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 1434379887662277932}
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 1
+      m_Calls: []
   onPlacingStopped:
     m_PersistentCalls:
       m_Calls:
@@ -641,13 +589,13 @@ PrefabInstance:
         type: 3}
       propertyPath: iconSet
       value: 
-      objectReference: {fileID: 11400000, guid: 88f4439d031a069488ae68f0e97ab9a8,
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
         type: 2}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: 49a59150fd8a7c1438828c262032e023, type: 3}
+      objectReference: {fileID: 2800000, guid: 29ac5149c25690246b2cea31271733ce, type: 3}
     - target: {fileID: 1683774822844829114, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_IsActive
@@ -769,13 +717,13 @@ PrefabInstance:
         type: 3}
       propertyPath: iconSet
       value: 
-      objectReference: {fileID: 11400000, guid: 88f4439d031a069488ae68f0e97ab9a8,
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
         type: 2}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: d6a8d6d764af76740ad06383ee810941, type: 3}
+      objectReference: {fileID: 2800000, guid: b82e09de4202f4946a34fbcd420fecc3, type: 3}
     - target: {fileID: 1683774822844829114, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_IsActive
@@ -897,13 +845,13 @@ PrefabInstance:
         type: 3}
       propertyPath: iconSet
       value: 
-      objectReference: {fileID: 11400000, guid: 88f4439d031a069488ae68f0e97ab9a8,
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
         type: 2}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: bd30f98596e69f7469fda20a47760dd1, type: 3}
+      objectReference: {fileID: 2800000, guid: 8f074eed3e3162e48870b6d4622e7af9, type: 3}
     - target: {fileID: 1683774822844829114, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_IsActive
@@ -1025,13 +973,13 @@ PrefabInstance:
         type: 3}
       propertyPath: iconSet
       value: 
-      objectReference: {fileID: 11400000, guid: 88f4439d031a069488ae68f0e97ab9a8,
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
         type: 2}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: 8d0274d8bc6a17844a08b493920d9491, type: 3}
+      objectReference: {fileID: 2800000, guid: 2b5518b644246c84a852f80afe218e53, type: 3}
     - target: {fileID: 1683774822844829114, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_IsActive
@@ -1136,7 +1084,7 @@ PrefabInstance:
     - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: led_lights_red
+      value: tvled_lights_red
       objectReference: {fileID: 0}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
@@ -1153,13 +1101,13 @@ PrefabInstance:
         type: 3}
       propertyPath: iconSet
       value: 
-      objectReference: {fileID: 11400000, guid: 88f4439d031a069488ae68f0e97ab9a8,
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
         type: 2}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: bb1b4a9241fba2042a81428e917afd5d, type: 3}
+      objectReference: {fileID: 2800000, guid: 0118c4c0e8470a64a850463214d2f03d, type: 3}
     - target: {fileID: 1683774822844829114, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_IsActive
@@ -1264,7 +1212,7 @@ PrefabInstance:
     - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: led_lights_green
+      value: tvled_lights_green
       objectReference: {fileID: 0}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
@@ -1281,13 +1229,13 @@ PrefabInstance:
         type: 3}
       propertyPath: iconSet
       value: 
-      objectReference: {fileID: 11400000, guid: 88f4439d031a069488ae68f0e97ab9a8,
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
         type: 2}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: bb1b4a9241fba2042a81428e917afd5d, type: 3}
+      objectReference: {fileID: 2800000, guid: 7e183029e88b78d45b5b853c509d2439, type: 3}
     - target: {fileID: 1683774822844829114, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_IsActive
@@ -1321,7 +1269,7 @@ PrefabInstance:
     - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5217
+      value: 0.5639
       objectReference: {fileID: 0}
     - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
@@ -1402,12 +1350,12 @@ PrefabInstance:
     - target: {fileID: 1683774822670159021, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_text
-      value: White Lights
+      value: Move
       objectReference: {fileID: 0}
     - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
@@ -1423,7 +1371,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 6772021793122270814}
+      objectReference: {fileID: 1434379887662277932}
     - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -1437,12 +1385,12 @@ PrefabInstance:
     - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
@@ -1457,12 +1405,67 @@ PrefabInstance:
     - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: StartPlacement
+      value: set_enabled
       objectReference: {fileID: 0}
     - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 5379256972343079318}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: set_enabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 6772021793122270814}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: StartPlacement
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
@@ -1485,7 +1488,7 @@ PrefabInstance:
         type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: bb1b4a9241fba2042a81428e917afd5d, type: 3}
+      objectReference: {fileID: 2800000, guid: b7ebc1af93ceaba48aed1e572edc6a58, type: 3}
     - target: {fileID: 1683774822844829114, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_IsActive
@@ -1494,7 +1497,7 @@ PrefabInstance:
     - target: {fileID: 1683774823821526900, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_text
-      value: Say "White Lights"
+      value: Say "Move"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a7590114cfdf424fb4e3ba168fcd385, type: 3}
@@ -1590,7 +1593,7 @@ PrefabInstance:
     - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: led_lights_off
+      value: tvled_lights_off
       objectReference: {fileID: 0}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
@@ -1607,13 +1610,13 @@ PrefabInstance:
         type: 3}
       propertyPath: iconSet
       value: 
-      objectReference: {fileID: 11400000, guid: 88f4439d031a069488ae68f0e97ab9a8,
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
         type: 2}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: 8d0274d8bc6a17844a08b493920d9491, type: 3}
+      objectReference: {fileID: 2800000, guid: d8263c95d91362443ad849d566bdfa27, type: 3}
     - target: {fileID: 1683774822844829114, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_IsActive
@@ -1735,13 +1738,13 @@ PrefabInstance:
         type: 3}
       propertyPath: iconSet
       value: 
-      objectReference: {fileID: 11400000, guid: 88f4439d031a069488ae68f0e97ab9a8,
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
         type: 2}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: bb1b4a9241fba2042a81428e917afd5d, type: 3}
+      objectReference: {fileID: 2800000, guid: 35571d3a19924a945a4ed830511a98ea, type: 3}
     - target: {fileID: 1683774822844829114, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_IsActive
@@ -1863,13 +1866,13 @@ PrefabInstance:
         type: 3}
       propertyPath: iconSet
       value: 
-      objectReference: {fileID: 11400000, guid: 88f4439d031a069488ae68f0e97ab9a8,
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
         type: 2}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: bb1b4a9241fba2042a81428e917afd5d, type: 3}
+      objectReference: {fileID: 2800000, guid: 6b5fc1c4d33572a46ad037b522fe9496, type: 3}
     - target: {fileID: 1683774822844829114, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_IsActive
@@ -1974,7 +1977,7 @@ PrefabInstance:
     - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: led_lights_blue
+      value: tvled_lights_blue
       objectReference: {fileID: 0}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
@@ -1991,13 +1994,13 @@ PrefabInstance:
         type: 3}
       propertyPath: iconSet
       value: 
-      objectReference: {fileID: 11400000, guid: 88f4439d031a069488ae68f0e97ab9a8,
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
         type: 2}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: bb1b4a9241fba2042a81428e917afd5d, type: 3}
+      objectReference: {fileID: 2800000, guid: 85429eab3a6f1064aac460be2de28050, type: 3}
     - target: {fileID: 1683774822844829114, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_IsActive
@@ -2102,7 +2105,7 @@ PrefabInstance:
     - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: led_lights_white
+      value: tvled_lights_white
       objectReference: {fileID: 0}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
@@ -2119,13 +2122,13 @@ PrefabInstance:
         type: 3}
       propertyPath: iconSet
       value: 
-      objectReference: {fileID: 11400000, guid: 88f4439d031a069488ae68f0e97ab9a8,
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
         type: 2}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: bb1b4a9241fba2042a81428e917afd5d, type: 3}
+      objectReference: {fileID: 2800000, guid: ea14561d12a748b49ab684e8cc7a8d61, type: 3}
     - target: {fileID: 1683774822844829114, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_IsActive
@@ -2247,13 +2250,13 @@ PrefabInstance:
         type: 3}
       propertyPath: iconSet
       value: 
-      objectReference: {fileID: 11400000, guid: 88f4439d031a069488ae68f0e97ab9a8,
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
         type: 2}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: cb5a9c3bdc2017d4f9e805e3a7e72b1d, type: 3}
+      objectReference: {fileID: 2800000, guid: bcbaea2f79afa604e92b667236d33975, type: 3}
     - target: {fileID: 1683774822844829114, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_IsActive
@@ -2384,6 +2387,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1683774822693220856, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_TagString
+      value: CenterObject
+      objectReference: {fileID: 0}
     - target: {fileID: 1683774822693220857, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2397,12 +2405,12 @@ PrefabInstance:
     - target: {fileID: 1683774822693220857, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1683774822693220857, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 16
+      value: 17.5
       objectReference: {fileID: 0}
     - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
@@ -2557,6 +2565,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1683774822374314265, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 21202819797275496, guid: ad601d838b0fb2744937cd5dad890e81,
+        type: 2}
     - target: {fileID: 1683774822670159021, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_text
@@ -2565,7 +2579,7 @@ PrefabInstance:
     - target: {fileID: 1683774822693220861, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: led_lights_on
+      value: tvled_lights_on
       objectReference: {fileID: 0}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
@@ -2582,13 +2596,24 @@ PrefabInstance:
         type: 3}
       propertyPath: iconSet
       value: 
-      objectReference: {fileID: 11400000, guid: 88f4439d031a069488ae68f0e97ab9a8,
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
         type: 2}
     - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: b5066c514f7f02f4292cf842f3c8b75f, type: 3}
+      objectReference: {fileID: 2800000, guid: 1415131dae3af0d44a02b1e89475cc87, type: 3}
+    - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: iconCharFont
+      value: 
+      objectReference: {fileID: 11400000, guid: ad601d838b0fb2744937cd5dad890e81,
+        type: 2}
+    - target: {fileID: 1683774822693220862, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: iconChar
+      value: 34
+      objectReference: {fileID: 0}
     - target: {fileID: 1683774822844829114, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_IsActive
