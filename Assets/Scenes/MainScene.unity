@@ -488,7 +488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c49a97aec71b6e04bbe5b544ee77d989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 4148261484311782377, guid: c9bf1d8540c09c84180ba36059d95333, type: 3}
 --- !u!1 &1387824798
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,7 +543,7 @@ PrefabInstance:
     - target: {fileID: 131490875995694845, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
         type: 3}
       propertyPath: m_Name
-      value: ButtonTwo
+      value: PaintingButton
       objectReference: {fileID: 0}
     - target: {fileID: 131490876616161037, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
         type: 3}
@@ -586,6 +586,21 @@ PrefabInstance:
       propertyPath: iconQuadTexture
       value: 
       objectReference: {fileID: 2800000, guid: 847151187d68eab4da95a64f78b3660a, type: 3}
+    - target: {fileID: 763741472937285476, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 763741472937285476, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1116484392}
+    - target: {fileID: 763741472937285476, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Spawn
+      objectReference: {fileID: 0}
     - target: {fileID: 958555039328662094, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
         type: 3}
       propertyPath: iconQuadTexture
@@ -595,6 +610,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NearMenu4x2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630636060837078200, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
+        type: 3}
+      propertyPath: m_Name
+      value: KitchenLightButton
       objectReference: {fileID: 0}
     - target: {fileID: 1630636061323851062, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
         type: 3}
@@ -740,7 +760,7 @@ PrefabInstance:
     - target: {fileID: 3015033265741987203, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
         type: 3}
       propertyPath: m_Name
-      value: ButtonThree
+      value: SalaLightButton
       objectReference: {fileID: 0}
     - target: {fileID: 3741428002213068870, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
         type: 3}
@@ -797,6 +817,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684875916272126430, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
+        type: 3}
+      propertyPath: m_Name
+      value: PresetButton
       objectReference: {fileID: 0}
     - target: {fileID: 6475768286380468863, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
         type: 3}
@@ -876,8 +901,19 @@ PrefabInstance:
     - target: {fileID: 7457904604990593143, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
         type: 3}
       propertyPath: m_Name
-      value: ButtonFive
+      value: ControlPanelButton
       objectReference: {fileID: 0}
+    - target: {fileID: 7773655248262073540, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
+        type: 3}
+      propertyPath: iconSet
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e43cb32cfea43f4cbe9887166dcce7c,
+        type: 2}
+    - target: {fileID: 7773655248262073540, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
+        type: 3}
+      propertyPath: iconQuadTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 67b67698f46583246a0d2673f3714f1d, type: 3}
     - target: {fileID: 7915729866667665463, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
         type: 3}
       propertyPath: m_HorizontalAlignment
@@ -911,7 +947,12 @@ PrefabInstance:
     - target: {fileID: 7915729867288197575, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
         type: 3}
       propertyPath: m_Name
-      value: ButtonSix
+      value: AirconButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118008111837553796, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
+        type: 3}
+      propertyPath: m_Name
+      value: SmartTVButton
       objectReference: {fileID: 0}
     - target: {fileID: 8118008112290837770, guid: 6dfc5f0a5fe04f94ab15177720f4bf05,
         type: 3}

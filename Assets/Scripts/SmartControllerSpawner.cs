@@ -25,7 +25,8 @@ public class SmartControllerSpawner : MonoBehaviour
     {
         if (!isSpawned)
         {
-            spawnedObject = Instantiate(prefab, Vector3.forward, Quaternion.identity);
+            var position = Camera.main.transform.position + Camera.main.transform.forward;
+            spawnedObject = Instantiate(prefab, position, Quaternion.identity);
             centerObject = FindPrefabChildWithTag(spawnedObject, centerObjectTag);
         }
 
@@ -51,7 +52,8 @@ public class SmartControllerSpawner : MonoBehaviour
             }
 
             var childGameObject = FindPrefabChildWithTag(item.gameObject, tag);
-            if (childGameObject != null) {
+            if (childGameObject != null)
+            {
                 return childGameObject;
             }
         }
