@@ -11,11 +11,22 @@ public class SmartHomeToggleButtonScript : MonoBehaviour
     private string offEventName;
 
     [SerializeField]
-    private bool isOn;
+    public bool isOn;
+
+    [SerializeField]
+    private GameObject[] ChildrenSmartHomeToggleParents;
 
     public void ToggleEvent()
     {
         StartCoroutine(IftttMakerManager.Request(isOn ? offEventName : onEventName));
         isOn = !isOn;
+
+        foreach (var item in ChildrenSmartHomeToggleParents)
+        {
+            var script = item.GetComponent<SmartHomeToggleButtonScript>();
+            if (script != null) {
+                script.isOn = isOn;
+            }
+        }
     }
 }

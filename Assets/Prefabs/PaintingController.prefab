@@ -300,6 +300,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoveTVControllerButton
       objectReference: {fileID: 0}
+    - target: {fileID: 1683774821740432816, guid: 9a7590114cfdf424fb4e3ba168fcd385,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1683774821740432817, guid: 9a7590114cfdf424fb4e3ba168fcd385,
         type: 3}
       propertyPath: m_LocalPosition.x

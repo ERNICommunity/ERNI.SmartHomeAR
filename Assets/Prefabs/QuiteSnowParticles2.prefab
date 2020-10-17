@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4489254202298510233
+--- !u!1001 &2238548735228354037
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -9,38 +9,13 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2538732423900543276, guid: c221f27b6f052c9408eb829dead19bb0,
         type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 0.05
+      propertyPath: ForceModule.z.scalar
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2538732423900543276, guid: c221f27b6f052c9408eb829dead19bb0,
         type: 3}
-      propertyPath: InitialModule.startLifetime.minScalar
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2538732423900543276, guid: c221f27b6f052c9408eb829dead19bb0,
-        type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2538732423900543276, guid: c221f27b6f052c9408eb829dead19bb0,
-        type: 3}
-      propertyPath: InitialModule.gravityModifier.scalar
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2538732423900543276, guid: c221f27b6f052c9408eb829dead19bb0,
-        type: 3}
-      propertyPath: moveWithTransform
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2538732423900543276, guid: c221f27b6f052c9408eb829dead19bb0,
-        type: 3}
-      propertyPath: lengthInSec
-      value: 8.79
-      objectReference: {fileID: 0}
-    - target: {fileID: 2538732423900543276, guid: c221f27b6f052c9408eb829dead19bb0,
-        type: 3}
-      propertyPath: ForceModule.enabled
-      value: 1
+      propertyPath: ForceModule.z.minScalar
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2538732423900543276, guid: c221f27b6f052c9408eb829dead19bb0,
         type: 3}
@@ -49,28 +24,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2538732423900543276, guid: c221f27b6f052c9408eb829dead19bb0,
         type: 3}
-      propertyPath: ForceModule.y.scalar
-      value: 1
+      propertyPath: ForceModule.x.minScalar
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 2538732423900543276, guid: c221f27b6f052c9408eb829dead19bb0,
         type: 3}
-      propertyPath: ForceModule.z.scalar
-      value: 4
+      propertyPath: ForceModule.y.minScalar
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2538732423900543276, guid: c221f27b6f052c9408eb829dead19bb0,
         type: 3}
       propertyPath: InitialModule.maxNumParticles
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2538732423900543276, guid: c221f27b6f052c9408eb829dead19bb0,
         type: 3}
-      propertyPath: ForceModule.z.minScalar
-      value: 0
+      propertyPath: InitialModule.startLifetime.minScalar
+      value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 5658798039767944501, guid: c221f27b6f052c9408eb829dead19bb0,
+    - target: {fileID: 2538732423900543276, guid: c221f27b6f052c9408eb829dead19bb0,
         type: 3}
-      propertyPath: m_MaxParticleSize
-      value: 0.02
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5679514325152918844, guid: c221f27b6f052c9408eb829dead19bb0,
         type: 3}
@@ -130,7 +105,7 @@ PrefabInstance:
     - target: {fileID: 8268369841045280030, guid: c221f27b6f052c9408eb829dead19bb0,
         type: 3}
       propertyPath: m_Name
-      value: QuiteSnowParticles
+      value: SnowParticles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c221f27b6f052c9408eb829dead19bb0, type: 3}
