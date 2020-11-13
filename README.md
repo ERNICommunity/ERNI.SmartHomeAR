@@ -42,4 +42,3 @@ Currently the implementation requires internet connections because most smart ho
 - IFTTT Webhook Applet https://ifttt.com/maker_webhooks
 - Tuya/SmartLife https://www.tuya.com/
 - eWeLink - https://www.ewelink.cc/en/
-- Vufiria Setup - https://library.vuforia.com/content/vuforia-library/en/articles/Solution/Working-with-the-HoloLens-sample-in-Unity.html
