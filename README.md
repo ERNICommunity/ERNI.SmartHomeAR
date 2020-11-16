@@ -30,7 +30,7 @@ SmartHomeAR App allows you to control the following smart devices through AR.
 # Limitations
 Currently the implementation requires internet connections because most smart home devices of today doesn't provide any API for local integration.
 
-# Setting Up Your Own Version
+# Setting Up Your Own Local Development
 
 ## Pre-requisite (Minimum)
 ### Smart Devices
