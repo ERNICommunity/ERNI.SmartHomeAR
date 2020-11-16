@@ -112,7 +112,7 @@ Before building the Unity you need to first create the following file `SecretsMa
 ```csharp
 public class SecretsManager
 {
-    private static string IftttMakerApiKey = "<your_webhook_api_key>";
+    public static string IftttMakerApiKey = "<your_webhook_api_key>";
 }
 ```
 
