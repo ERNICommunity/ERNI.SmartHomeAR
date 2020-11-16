@@ -74,7 +74,7 @@ To create an API that is compatible with web call. use the *Webhooks* service.
 
 ### Testing you first API
 - Do note that IFTTT Webhook APIs required an API Key, to know your API key navigate to [Webhook Settings](https://ifttt.com/maker_webhooks/settings) **!! Remember this Key as we will be needing this in the future**.
-- To test your new API, navigate to the following url: https://maker.ifttt.com/trigger/*tvled_lights_on*/with/key/<your_webhook_api_key>. If the LED Strip is off, it will turn on after few seconds.
+- To test your new API, navigate to the following url: `https://maker.ifttt.com/trigger/tvled_lights_on/with/key/<your_webhook_api_key>`. If the LED Strip is off, it will turn on after few seconds.
 
 ### More APIs
 
@@ -104,7 +104,22 @@ Do the above procedure to the following APIs as well.
     - Turn on the Aircon
     - *Cool*
     - Set temperature to 23 deg.
-     
+## Clone the source code
+One all your api the ready time to clone the source code of this Git Repository. Once done, you can now open the unity scene **MainScene.unity**.
+
+## Adding the SecretManager
+Before building the Unity you need to first create the following file `SecretsManager.cs`under `ERNI.SmartHomeAR/Assets/Scripts/` folder.
+```csharp
+public class SecretsManager
+{
+    private static string IftttMakerApiKey = "<your_webhook_api_key>";
+}
+```
+
+## Finally Build
+
+Finally, build the Unity project as a normal HoloLens Project. For any questions you may contact pavi@erni.ph or vjppaz@gmail.com
+
 # References
 - MRTK Basics https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Intro-to-MRTK-Unity
 - MRTK Documetation https://github.com/microsoft/MixedRealityToolkit-Unity#documentation
