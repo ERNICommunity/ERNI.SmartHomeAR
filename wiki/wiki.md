@@ -74,9 +74,9 @@ For Unity complete price list comparison please refer to https://store.unity.com
 **Smart Life** and **Magic Hue** is currently free plan with no limitations. 
 
 # App Composition
-With all the efficiency provided by each tools and libraries I used only less than 5% of the effort is coding. For an MVP you only need to call the GET API that will be provided by IFTTT which is only around 5 lines of code.
+With all the efficiency provided by each tools and libraries I used only less than 5% of the effort is coding. For an MVP you only need to call the GET API that will be provided by IFTTT which is only around 20 lines of code.
 
- 
+ ![App composition](composition-chart.png)
 
 # Lesson Learnt
 
