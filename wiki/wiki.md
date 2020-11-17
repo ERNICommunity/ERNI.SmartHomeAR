@@ -48,31 +48,30 @@ Working with out-of-the-box easy-to-use platform is not for free of course but f
 Below is the list of platforms and their cost. Those with asterisk (*) are the plan I used to develop the demo app.
 
 ## eWelink
-|=Plan==|==Cost (Yearly)==|==Description==|
-|Free Plan|-||
-|Advance Plan *|$9.99|required for IFTTT integration|
+Plan | Cost (Yearly) | Description
+---- | -------------:| -----------
+Free Plan|-| 
+Advance Plan * | $9.99 | required for IFTTT integration
 
 ## IFTTT
-Plan	Cost (Monthly)	Description
-Basic	-	3 Applet maximum
-Pro *	$3.99	Unlimited Applet
-Supports multiple IF condition
-Supports multiple action per Applet
+Plan | Cost (Monthly) | Description
+---- | --------------:| -----------
+Basic|-| 3 Applet maximum
+Pro * | $3.99 | Unlimited Applet, Supports multiple IF condition, Supports multiple action per Applet
 
 ## Unity
-Plan	Year per Seat	Description
-Student	-	Learn the tools and workflows professionals use on the job
-Personal *	-	Start creating with the free version of Unity
-Plus	$399.00	refer to Business Plans 
-
-Pro	$1,800.00	refer to Business Plans
-
-Enterprise	$4,000.00 (20 seats)	refer to Business Plans
-
+Plan | Year per Seat | Description
+---- | -------------:| -----------
+Student|-| Learn the tools and workflows professionals use on the job
+Personal * |-| Start creating with the free version of Unity
+Plus| $399.00 | refer to [Business Plans](https://store.unity.com/#plans-business)
+Pro	| $1,800.00 | refer to [Business Plans](https://store.unity.com/#plans-business)
+Enterprise | $4,000.00 (20 seats) | refer to [Business Plans](https://store.unity.com/#plans-business)
 
 For Unity complete price list comparison please refer to https://store.unity.com/compare-plans?currency=USD 
+
 ## Others
-Smart Life and Magic Hue is currently free plan with no limitations. 
+**Smart Life** and **Magic Hue** is currently free plan with no limitations. 
 
 # App Composition
 With all the efficiency provided by each tools and libraries I used only less than 5% of the effort is coding. For an MVP you only need to call the GET API that will be provided by IFTTT which is only around 5 lines of code.
@@ -88,7 +87,7 @@ I’ve been working as software developer for the past 10 years and sometimes we
 When working with augmented Reality App having a creative mind may not be enough. Clearing your mind can help you at some point. Imagine that “Monitors” never existed, from there visualize how AR could improve our day to day live. “How can you enhance the real world with computer generated information”, “How will you make computer generated information benefit from the real world”, “How will you make the real world benefit from computer generated information”. With all these in mind you’ll end up of something amazing.
 
 ## Unity Development
-Knowing the basic would mean a lot, when developers plan to build applications using Unity I would suggest this Udemy Course Complete C# Unity Game Developer 3D. It will teach you the unity basics, it even walkthrough you in building 4 different games and most importantly it teaches you the good stuffs for beginners.
+Knowing the basic would mean a lot, when developers plan to build applications using Unity I would suggest this Udemy Course [Complete C# Unity Game Developer 3D](https://www.udemy.com/course/unitycourse2/). It will teach you the unity basics, it even walkthrough you in building 4 different games and most importantly it teaches you the good stuffs for beginners.
 
 ## MixedReality Toolkit Development
 Learn from documentation is a great thing, HoloLens development community is not big enough to refer from other developers. Most of the time you will end up learning from the documentation itself which is kind of the right way to all framework out there actually.
@@ -98,36 +97,42 @@ Learn from documentation is a great thing, HoloLens development community is not
 ## MixedReality-Toolkit
 Provides the cross-platform input system and building blocks for spatial interactions and UI 
 - https://github.com/microsoft/MixedRealityToolkit-Unity 
-- Documentation
-- Required Software
-- Unity Packages under Assets section. 
--	Demos App
+- [Documentation](https://github.com/microsoft/MixedRealityToolkit-Unity#documentation)
+- [Required Software](https://github.com/microsoft/MixedRealityToolkit-Unity#required-software)
+- [Unity Packages](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/tag/v2.4.0) under Assets section. 
+-	[Demos App](https://github.com/microsoft/MixedRealityToolkit-Unity#example-scenes)
 
 ##	Unity
 World's Leading Real-Time 2D and 3D Development Platform.
 -	https://unity.com/
--	Plans
--	Udemy Course
--	MixedReality Toolkit packages
--	Installers (suggest using Unity Hub, to easily manage multiple Unity versions)
+-	[Plans](https://store.unity.com/compare-plans)
+-	[Udemy Course](https://www.udemy.com/course/unitycourse2/)
+-	[MixedRealityToolkit](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/tag/v2.4.0) packages
+-	[Installers](https://unity3d.com/get-unity/download) (suggest using Unity Hub, to easily manage multiple Unity versions)
 
 ##	IFTTT
 Allows users to create chains of conditional statements triggered by changes that occur within other web services and smart home devices
 -	https://ifttt.com/home
--	Plans
--	HTTP Trigger (Webhook)
--	Developer Docs (was never used in this Masterpiece but for future IFTTT integration this will be the best place to start)
--	Tuya/Smart Life – IoT Platform
+-	[Plans](https://ifttt.com/plans)
+-	[HTTP Trigger (Webhook)](https://ifttt.com/maker_webhooks)
+-	[Developer Docs](https://platform.ifttt.com/docs) (was never used in this Masterpiece but for future IFTTT integration this will be the best place to start)
+
+## Tuya/Smart Life
+IoT Platform
 -	https://www.tuya.com/
--	eWeLink – IoT Platform
+
+## eWeLink
+IoT Platform
 -	https://www.ewelink.cc/en/
 
 # Resources
 
 ## GitHub Sourcecode
 The source code is currently publicly available. This is to promote the idea to combine the two technology not only for ERNIans but also to other AR/IoT Developers out there who would like to explore posibilities in order to move the technologies forward.
+
 https://github.com/ERNICommunity/ERNI.SmartHomeAR
 
 ## Initial Promotional Video
 Here is an first promotional video about how the Masterpiece’s capabilities.
-SmartHomeAR v0.2.4
+
+[![SmartHomeAR v0.2.4](http://img.youtube.com/vi/dzsEWN0Nmrk/0.jpg)](http://www.youtube.com/watch?v=dzsEWN0Nmrk)
