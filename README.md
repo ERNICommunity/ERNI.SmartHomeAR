@@ -15,7 +15,15 @@ SmartHomeAR App allows you to control the following smart devices through AR.
 # First Version
 
 ## Promotional Video
+
+### Detailed Video
+
 [![SmartHomeAR v0.2.4](https://img.youtube.com/vi/dzsEWN0Nmrk/0.jpg)](https://www.youtube.com/watch?v=dzsEWN0Nmrk)
+
+### Different Perspective
+What I see vs how others see me
+
+[![SmartHomeAR v0.3 (What I see vs How others see me)](https://img.youtube.com/vi/eG9ZCQ4tW1o/0.jpg)](https://www.youtube.com/watch?v=eG9ZCQ4tW1o)
 
 # TechStack
 
