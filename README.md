@@ -113,7 +113,7 @@ Do the above procedure to the following APIs as well.
     - *Cool*
     - Set temperature to 23 deg.
 ## Clone the source code
-One all your api the ready time to clone the source code of this Git Repository. Once done, you can now open the unity scene **MainScene.unity**.
+One all your api the ready time to clone the source code of this Git Repository. Once done, open the unity scene **MainScene.unity** from folder `Scenes`.
 
 ## Adding the SecretManager
 Before building the Unity you need to first create the following file `SecretsManager.cs`under `ERNI.SmartHomeAR/Assets/Scripts/` folder.
