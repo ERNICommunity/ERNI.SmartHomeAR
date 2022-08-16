@@ -27,7 +27,7 @@ What I see vs how others see me
 
 # TechStack
 
-- Unity 3D 2019
+- Unity 3D 2019 (2019.4.11f1)
 - Mixed Reality Toolkit 2.4
 - IFTTT
 - IoT Platforms
